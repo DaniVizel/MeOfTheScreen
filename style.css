@@ -1,0 +1,223 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#home {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    left: 20px;
+    margin-top: 20px;
+    z-index: 9999;
+}
+body {
+    background-image: url(Assets/purplegradient.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    bottom: 0px;
+}
+#stars {
+    position: absolute;
+    left: 0px;
+    animation-name: bob;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    overflow: hidden;
+}
+@keyframes bob {
+    0%, 100% {
+        transform: translateY(0px);
+        opacity: 30%;
+    }
+    50% {
+        transform: translateY(-3px);
+        transform:scale(1.005,1.005);
+        opacity: 70%;
+    }
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #5773EF;
+    margin-top:-2320px;
+    z-index: +10;
+}
+em {
+    font-weight: 100;
+    font-size: +90;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: #EBCEC7;
+    vertical-align: middle;
+  }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 300px;
+    letter-spacing: 5px;
+    color: #EBCEC7;
+}
+#subhead-1{
+    position:absolute;
+    margin-top: 20px;
+}
+#subhead-2{
+    position:absolute;
+    margin-top: 800px;
+}
+#subhead-3{
+    position:absolute;
+    margin-top: 1500px;
+}
+
+.graphics {
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+}
+#elebeatle {
+    transform:scale(0.4,0.4);
+    left: -550px;
+    top: -250px;
+}
+
+#table {
+    transform:scale(0.4,0.4);
+    left: 550px;
+    top: 750px;
+}
+#gun {
+    transform:scale(0.2,0.2);
+    left: -550px;
+    top: 700px;
+}
+#ford {
+    transform:scale(0.4,0.4);
+    left: 600px;
+    top: 1500px;
+}
+#graph-1 {
+    position: absolute;
+    transform:scale(0.6,0.6);
+    left: 100px;
+    top: 200px;
+}
+#graph-pie {
+    position: absolute;
+    transform:scale(0.45,0.45);
+    left: 240px;
+    top: 930px;
+}
+#graph-3 {
+    position: absolute;
+    transform:scale(0.7,0.7);
+    left: -45px;
+    top: 1615px;
+    z-index: 200;
+}
+#stat-1 {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 250px;
+    top: 1050px;
+}
+#stat-2 {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 480px;
+    top: 1050px;
+}
+#asterisk {
+    color: #EBCEC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 320;
+    letter-spacing: 1px;
+    font-size: 9pt;
+    width: 300px;
+    text-indent: -11pt;
+    position: absolute;
+    left: 750px;
+    top: 1115px;
+    z-index: 99999999;
+    
+}
+a {
+    color: #5773EF;
+}
+p {
+    color: #DAF4FB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 11pt;
+    width: 300px;
+    height: 200px;
+}
+/*Ele-Beatle Page*/
+.det-pagebody {
+    overflow: hidden;
+}
+#detail-1 {
+    position:absolute;
+    transform: scale(0.7,0.7);
+    left: -400px;
+    top: -350px;
+}
+#detail-2 {
+    position:absolute;
+    transform: scale(0.8,0.8);
+    left: 0px;
+    top: -50px;
+}
+#detail-3 {
+    position:absolute;
+    transform: scale(0.35,0.35);
+    left: -250px;
+    top: -650px;
+}
+#detail-4 {
+    position:absolute;
+    transform: scale(0.55,0.55);
+    left: -150px;
+    top: -200px;
+}
+.p {
+    position: absolute;
+    color: #EBCEC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 320;
+    letter-spacing: 1px;
+    font-size: 11pt;
+    width: 400px;
+    border-color: #EBCEC7;
+    background-color: #572394;
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+    border-radius: 6px;
+    border-width: 5px;
+    left: 750px;
+    top: 400px;
+    z-index: 999999;
+}
+#home {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    left: 20px;
+    margin-top: 20px;
+    z-index: 9999;
+}
