@@ -4,14 +4,6 @@
     padding:0px;
     box-sizing:border-box;
 }
-#home {
-    position: absolute;
-    width: 75px;
-    height: auto;
-    left: 20px;
-    margin-top: 20px;
-    z-index: 9999;
-}
 body {
     background-image: url(Assets/purplegradient.svg);
     background-position: center;
@@ -86,26 +78,45 @@ h3 {
     position: absolute;
     z-index: 9999;
 }
+@keyframes fadein {
+    0% {
+        transform: scale(0.8,0.8);
+        opacity: 0%;
+    }
+    100% {opacity: 100%}
+}
 #elebeatle {
     transform:scale(0.4,0.4);
     left: -550px;
     top: -250px;
+    opacity: 0%;
+
+}
+.start {
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #table {
     transform:scale(0.4,0.4);
     left: 550px;
     top: 750px;
+    opacity: 0%;
 }
 #gun {
     transform:scale(0.2,0.2);
     left: -550px;
     top: 700px;
+    opacity: 0%;
 }
 #ford {
     transform:scale(0.4,0.4);
     left: 600px;
     top: 1500px;
+    opacity: 0%;
 }
 #graph-1 {
     position: absolute;
@@ -165,8 +176,16 @@ a {
     font-size: 11pt;
     width: 300px;
     height: 200px;
-}*/
-/*Ele-Beatle Page*/
+}
+/*Detail Pages*/
+#home {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    left: 20px;
+    margin-top: 20px;
+    z-index: 9999;
+}
 .det-pagebody {
     overflow: hidden;
 }
@@ -212,12 +231,4 @@ a {
     left: 750px;
     top: 400px;
     z-index: 999999;
-}
-#home {
-    position: absolute;
-    width: 75px;
-    height: auto;
-    left: 20px;
-    margin-top: 20px;
-    z-index: 9999;
 }
