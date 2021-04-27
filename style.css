@@ -33,6 +33,7 @@ body {
         opacity: 70%;
     }
 }
+/*type*/
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40pt;
@@ -62,17 +63,62 @@ h3 {
 }
 #subhead-1{
     position:absolute;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 #subhead-2{
     position:absolute;
-    margin-top: 800px;
+    margin-top: 750px;
 }
 #subhead-3{
     position:absolute;
-    margin-top: 1500px;
+    margin-top: 1510px;
 }
-
+p {
+    color: #DAF4FB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 9.5pt;
+    line-height: 17px;
+    width: 380px;
+    height: 200px, auto;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    text-shadow: 0px 0px 10px #21075F;
+    z-index: 9999;
+    widows: 4;
+}
+#p1 {
+    left: 350px;
+    top: 180px;
+}
+#p2 {
+    left: 750px;
+    top: 180px;
+    width: 390px;
+}
+#p3 {
+    left: 250px;
+    top: 1080px;
+}
+#p4 {
+    left: 250px;
+    top: 1270px;
+}
+#p5 {
+    left: 250px;
+    top: 1460px;
+}
+#p6 {
+    left: 250px;
+    top: 1680px;
+}
+#explore {
+    left: 850px;
+    top: 1820px;
+}
 .graphics {
     overflow: hidden;
     position: absolute;
@@ -87,7 +133,7 @@ h3 {
 }
 #elebeatle {
     transform:scale(0.4,0.4);
-    left: -550px;
+    left: -590px;
     top: -250px;
     opacity: 0%;
 
@@ -99,11 +145,10 @@ h3 {
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
-
 #table {
     transform:scale(0.4,0.4);
     left: 550px;
-    top: 750px;
+    top: 730px;
     opacity: 0%;
 }
 #gun {
@@ -133,49 +178,41 @@ h3 {
 #graph-3 {
     position: absolute;
     transform:scale(0.7,0.7);
-    left: -45px;
-    top: 1615px;
+    left: -75px;
+    top: 1770px;
     z-index: 200;
 }
 #stat-1 {
     position: absolute;
     width: 250px;
     height: auto;
-    left: 250px;
-    top: 1050px;
+    left: 230px;
+    top: 1000px;
 }
 #stat-2 {
     position: absolute;
     width: 250px;
     height: auto;
-    left: 480px;
-    top: 1050px;
+    left: 450px;
+    top: 1000px;
 }
-#asterisk {
+h6{
     color: #EBCEC7;
     font-family: 'Montserrat', sans-serif;
     font-weight: 320;
     letter-spacing: 1px;
     font-size: 9pt;
-    width: 300px;
-    text-indent: -11pt;
     position: absolute;
-    left: 750px;
-    top: 1115px;
+    width: 300px;
+}
+#asterisk {
+    text-indent: -11pt;
+    left: 730px;
+    top: 1070px;
     z-index: 99999999;
-    
 }
 a {
     color: #5773EF;
-}
-/*p {
-    color: #DAF4FB;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    letter-spacing: 1px;
-    font-size: 11pt;
-    width: 300px;
-    height: 200px;
 }
 /*Detail Pages*/
 #home {
@@ -194,24 +231,44 @@ a {
     transform: scale(0.7,0.7);
     left: -400px;
     top: -350px;
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 #detail-2 {
     position:absolute;
     transform: scale(0.8,0.8);
     left: 0px;
     top: -50px;
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 #detail-3 {
     position:absolute;
     transform: scale(0.35,0.35);
     left: -250px;
     top: -650px;
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 #detail-4 {
     position:absolute;
     transform: scale(0.55,0.55);
     left: -150px;
     top: -200px;
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .p {
     position: absolute;
@@ -219,16 +276,21 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 320;
     letter-spacing: 1px;
-    font-size: 11pt;
+    line-height: 19px;
+    font-size: 10pt;
     width: 400px;
     border-color: #EBCEC7;
     background-color: #572394;
-    text-align: center;
+    text-align: left;
     padding: 30px;
-    height: 300px;
+    height: 300px, auto;
     border-radius: 6px;
     border-width: 5px;
     left: 750px;
-    top: 400px;
+    top: 350px;
+    margin-top: 0px;
     z-index: 999999;
+}
+#ford-det-p {
+    top: 190px;
 }
